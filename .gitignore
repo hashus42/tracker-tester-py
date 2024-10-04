@@ -8,3 +8,6 @@ data/sakhir-airbase-manama-bahrain.mp4
 /goturn-files-master
 goturn.caffemodel
 goturn.prototxt
+dasiamrpn_kernel_cls1.onnx
+dasiamrpn_kernel_r1.onnx
+dasiamrpn_model.onnx

@@ -44,6 +44,7 @@ def on_mouse(event, x, y, flags, param):
 
 
 while True:
+    start = cv.getTickCount()
     ret, frame = cap.read()
     frame = cv.flip(frame, 1)
 
@@ -71,8 +72,6 @@ while True:
     else:
         print("Frame is None")
         break
-
-    start = cv.getTickCount()
 
     if mouseDown:
         pt1 = (drawBox[0], drawBox[1])
